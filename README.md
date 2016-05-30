@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-$ npm install --save-dev gulp-html-static
+git clone git@github.com:zhe-he/gulp-html-static.git
 ```
 
 ```js
