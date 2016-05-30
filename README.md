@@ -1,7 +1,5 @@
 
-# [gulp]()
-
-[![NPM]()]()
+# [gulp-html-static](https://github.com/zhe-he/gulp-html-static)
 
 > replace resources in html template.
 
