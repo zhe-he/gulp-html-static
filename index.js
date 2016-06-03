@@ -32,6 +32,9 @@ function replace(options) {
         }else{
         	cb(null, file);
         };
+    },function (cb){
+        console.log("Finished 'gulp-replace'");
+        cb && cb();
     });
 }
 
