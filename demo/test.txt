@@ -1,0 +1,5 @@
+href="test/css/index.css"
+src="test/js/index.js"
+src="/${img}"
+src="other/tmp/index.png"
+other/a/b/c

@@ -1,14 +1,23 @@
 {
-  "name": "gulp-replace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {},
+  "name": "gulp-html-static",
+  "version": "1.0.2",
+  "description": "change url or replace url or add prefix url",
+  "main": "lib/gulp-html-static.js",
+  "repository": "git@github.com:zhe-he/gulp-html-static.git",
+  "tags": [
+    "gulp",
+    "url",
+    "replace",
+    "prefix"
+  ],
   "devDependencies": {
     "through2": "^2.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ready" : "npm install gulp del",
+    "start": "gulp static",
+    "end": "gulp del:static",
+    "build": "npm run ready && npm run start"
   },
   "author": "zhe-he",
   "license": "ISC"
